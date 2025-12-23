@@ -2,210 +2,198 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-<link rel="icon" type="image/png" href="VaultErik_logo_bw.png">
-
-<title>Erik | Presentación</title>
+<title>Erik · Mentor Digital</title>
 
 <style>
 body {
-  margin: 0;
-  padding: 60px 0;
-  font-family: sans-serif;
-  background-color: #1a1a1a;
-  display: flex;
-  justify-content: center;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #F2F2F2;
+    color: #1f2933;
 }
 
-.caja-cv {
-  background-color: #F2F2F2;
-  color: #1a1a1a;
-  max-width: 700px;
-  width: 75%;
-  border-radius: 10px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
-  overflow: hidden;
-  text-align: center;
-}
-
-/* Avatar */
-img.avatar {
-  width: 250px;
-  margin-bottom: 20px;
-}
-
-/* Secciones base */
 section {
-  padding: 40px;
+    padding: 60px 20px;
+    text-align: center;
 }
 
-section h1 { font-size: 32px; margin-bottom: 10px; }
-section h2 { font-size: 24px; margin-bottom: 10px; }
-section h3 { font-size: 20px; margin-bottom: 10px; }
-section p  { font-size: 16px; text-align: center; }
-
-/* Colores de bloques */
-.bloque-azul {
-  background-color: #4B6578;
-  color: #ffffff;
+.container {
+    max-width: 900px;
+    margin: auto;
 }
 
-.bloque-amarillo {
-  background-color: #F2C94C;
-  color: #1a1a1a;
+h1 {
+    margin-top: 20px;
+    font-size: 2.4rem;
 }
 
-.bloque-gris {
-  background-color: #F2F2F2;
-  color: #1a1a1a;
+h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
 }
 
-/* Botones */
-.boton {
-  display: inline-block;
-  padding: 10px 20px;
-  margin: 6px;
-  background: #fff;
-  color: black;
-  text-decoration: none;
-  border: 3px solid black;
-  border-radius: 5px;
-  font-weight: bold;
+h3 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
 }
 
-.boton img {
-  width: 22px;
-  vertical-align: middle;
-  margin-left: 5px;
+p {
+    line-height: 1.6;
+    max-width: 760px;
+    margin: 0 auto 16px auto;
 }
 
-/* CV en dos columnas */
-.cv-grid {
-  display: flex;
-  gap: 30px;
-  justify-content: center;
-  margin-top: 20px;
+/* Colores de secciones */
+.azul {
+    background-color: #4B6578;
+    color: #ffffff;
 }
 
-.cv-col {
-  flex: 1;
+.amarillo {
+    background-color: #F2C94C;
+    color: #1f2933;
+}
+
+.gris {
+    background-color: #F2F2F2;
+    color: #1f2933;
+}
+
+.verde {
+    background-color: #4A7B5E;
+    color: #ffffff;
 }
 
 /* Contacto */
-.boton-contacto {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 50px;
-  height: 50px;
-  margin: 6px;
-  background: #fff;
-  border: 3px solid black;
-  border-radius: 50%;
-  transition: transform 0.2s ease;
+.contacto {
+    margin-top: 20px;
 }
 
-.boton-contacto:hover {
-  transform: scale(1.1);
+.contacto a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: inherit;
 }
 
-.boton-contacto img {
-  width: 24px;
+/* Currículum dos columnas */
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
 }
 
-/* Footer */
-footer {
-  padding: 20px;
-  background-color: #F2F2F2;
-}
-
-footer p {
-  font-size: 14px;
-  color: #555;
-}
-
-footer img {
-  width: 70px;
-  border-radius: 50%;
-  margin-top: 10px;
-}
-
-/* Responsive */
-@media (max-width: 600px) {
-  .caja-cv { width: 90%; }
-  img.avatar { width: 130px; }
-  .cv-grid { flex-direction: column; }
+.column {
+    flex: 1 1 320px;
+    max-width: 420px;
 }
 </style>
 </head>
 
 <body>
 
-<div class="caja-cv">
-
-<!-- INICIO -->
-<section>
-  <img class="avatar" src="./banner_logo_V·E.png" alt="Avatar Erik">
-  <h1>Erik</h1>
-  <h2>MENTOR DIGITAL</h2>
-  <p>Gracias por dedicarme unos minutos de tu tiempo.</p>
+<!-- CABECERA -->
+<section class="gris">
+    <div class="container">
+        <!-- LOGO AQUÍ -->
+        <h1>Erik</h1>
+        <h3>Mentor Digital</h3>
+        <p>Gracias por dedicarme unos minutos de tu tiempo.</p>
+    </div>
 </section>
 
-<!-- SOBRE MI -->
-<section class="bloque-azul">
-  <h2>Sobre mí</h2>
-  <p>
-    Profesional con interés constante por el aprendizaje, el trabajo bien estructurado y la creación de documentación clara y útil.<br><br>
-    Mi enfoque metódico, influido por la neurodivergencia, aporta atención al detalle, pensamiento analítico y soluciones prácticas.<br><br>
-    Experiencia como Mentor Digital en el proyecto de Competencias Digitales del Gobierno Vasco.<br><br>
-    Prefiero la comunicación escrita para garantizar claridad y respuestas bien pensadas.
-  </p>
+<!-- SOBRE MÍ -->
+<section class="azul">
+    <div class="container">
+        <h2>Sobre mí</h2>
+
+        <p>
+        Persona con interés constante por el aprendizaje, el trabajo bien estructurado
+        y la creación de documentación clara y de valor.
+        </p>
+
+        <p>
+        Mi enfoque neurodivergente aporta atención al detalle, paciencia y capacidad
+        para detectar problemas y generar soluciones creativas.
+        </p>
+
+        <p>
+        He participado como Mentor Digital en el proyecto de Competencias Digitales
+        del Gobierno Vasco.
+        </p>
+
+        <p>
+        Tengo preferencia por la comunicación escrita.
+        </p>
+    </div>
 </section>
 
-<!-- CURRICULUM -->
-<section class="bloque-amarillo">
-  <h2>Currículum</h2>
+<!-- CURRÍCULUM -->
+<section class="amarillo">
+    <div class="container">
+        <h2>Currículum</h2>
 
-  <div class="cv-grid">
-    <div class="cv-col">
-      <h3>Formador Digital · Técnico de Soporte Educativo</h3>
-      <a class="boton" href="https://drive.google.com/file/d/1JXkFN1EMMklOHkxpGxB-h-XXn2B4t8LE/view" target="_blank">
-        Currículum
-      </a>
-    </div>
+        <div class="columns">
+            <div class="column">
+                <h3>Mentor Digital · Técnico de Soporte Educativo</h3>
+                <p>
+                Acompañamiento en procesos de aprendizaje digital,
+                soporte técnico educativo y resolución de incidencias,
+                con especial atención a la claridad, la documentación
+                y el seguimiento.
+                </p>
+            </div>
 
-    <div class="cv-col">
-      <h3>Versión creativa</h3>
-      <a class="boton" href="https://drive.google.com/file/d/1AjklwJq4SuZOQDTqoQOVqcXObLRqZwt-/view" target="_blank">
-        Ficha de personaje · Nivel 35
-      </a>
+            <div class="column">
+                <h3>Perfil alternativo</h3>
+                <p>
+                Si te interesa una versión más creativa y narrativa de mi perfil,
+                puedes consultar mi ficha de personaje y otros enfoques más “roleros”.
+                </p>
+            </div>
+        </div>
     </div>
-  </div>
 </section>
 
 <!-- PROYECTOS -->
-<section class="bloque-gris">
-  <h2>Proyectos</h2>
-  <!-- aquí mantienes tus botones tal cual -->
+<section class="gris">
+    <div class="container">
+        <h2>Proyectos</h2>
+
+        <p>
+        Desarrollo de recursos educativos, documentación técnica,
+        formación digital y acompañamiento en competencias tecnológicas.
+        </p>
+
+        <div class="contacto">
+            <a href="ENLACE_PROYECTO_1" target="_blank">Proyecto 1</a>
+            <a href="ENLACE_PROYECTO_2" target="_blank">Proyecto 2</a>
+            <a href="ENLACE_PROYECTO_3" target="_blank">Proyecto 3</a>
+        </div>
+    </div>
 </section>
 
 <!-- CONTACTO -->
-<section class="bloque-azul">
-  <h2>Contacto</h2>
-  <p><em>Explora mis cursos y recursos gratuitos, y si encajan contigo, no dudes en escribirme.</em></p>
+<section class="verde">
+    <div class="container">
+        <h2>Contacto</h2>
 
-  <a class="boton-contacto" href="mailto:vault.erik@gmail.com"><img src="https://img.icons8.com/?id=i3XElI5CmcBP&format=png"></a>
-  <a class="boton-contacto" href="https://t.me/VaultErik"><img src="https://img.icons8.com/?id=45163&format=png"></a>
-  <a class="boton-contacto" href="https://github.com/VaultErik"><img src="https://img.icons8.com/?id=62856&format=png"></a>
-  <a class="boton-contacto" href="https://www.youtube.com/@VaultErik"><img src="https://img.icons8.com/?id=37326&format=png"></a>
-  <a class="boton-contacto" href="https://www.instagram.com/Vault.Erik"><img src="https://img.icons8.com/?id=85154&format=png"></a>
+        <p>
+        Explora mis cursos y recursos gratuitos y, si encajan contigo,
+        no dudes en escribirme.
+        </p>
+
+        <div class="contacto">
+            <a href="mailto:TU_EMAIL">Correo</a>
+            <a href="https://t.me/TU_TELEGRAM" target="_blank">Telegram</a>
+            <a href="https://www.youtube.com/TU_CANAL" target="_blank">YouTube</a>
+            <a href="https://www.instagram.com/TU_INSTAGRAM" target="_blank">Instagram</a>
+            <a href="https://github.com/TU_GITHUB" target="_blank">GitHub</a>
+        </div>
+    </div>
 </section>
 
-<footer>
-  <p>Gracias por visitar mi presentación</p>
-  <img src="./erik_profesional.png" alt="Erik">
-</footer>
-
-</div>
 </body>
 </html>
