@@ -30,55 +30,29 @@
     position: relative;
   }
 
-  img.avatar {
-    display: none;
-  }
-
   section {
     margin: 20px 0;
     padding: 20px;
     border-radius: 20px;
+    background-color: #5c6773; /* color acero */
+    color: #ffffff; /* texto en blanco */
+    text-align: center;
   }
 
-  /* Inicio */
   section#inicio {
     background-color: transparent;
-    color: #284d82;
     text-align: center;
   }
 
-  section#sobre-mi {
-    background-color: #1f1f1f;
-    color: #e3ddd4;
-    border-radius: 20px;
-    text-align: center;
+  section#inicio h1 {
+    color: #ffffff;
+    font-size: 48px !important;
   }
 
-  section#curriculum {
-    background-color: #5c6773;
-    color: #e3ddd4;
-    border-radius: 20px;
+  section#inicio h2, section#inicio p {
+    color: #1f1f1f;
   }
 
-  section#proyectos {
-    background-color: #284d82;
-    color: #e3ddd4;
-    border-radius: 20px;
-    text-align: center;
-  }
-
-  section#contacto {
-    background-color: #1f1f1f;
-    color: #e3ddd4;
-    border-radius: 20px;
-    text-align: center;
-  }
-
-  h1 { 
-    font-size: 48px !important; 
-    margin-bottom: 10px; 
-    font-family: 'EngraversOldEnglish', serif;
-  }
   h2 { font-size: 24px !important; margin-bottom: 10px; }
   h3 { font-size: 20px !important; margin-bottom: 5px; }
   p  { font-size: 16px !important; margin-bottom: 10px; }
@@ -91,7 +65,7 @@
     display: inline-block;
     padding: 10px 20px;
     margin: 5px;
-    background: #e3ddd4;
+    background: #ffffff;
     color: #1f1f1f;
     text-decoration: none;
     border: 3px solid #1f1f1f;
@@ -113,7 +87,7 @@
     width: 50px;
     height: 50px;
     margin: 5px;
-    background: #e3ddd4;
+    background: #ffffff;
     color: #1f1f1f;
     text-decoration: none;
     border: 3px solid #1f1f1f;
@@ -162,15 +136,6 @@
     img.avatar { width: 120px; }
     img.mascota { width: 56px; }
   }
-
-  /* Fuente Engravers Old English BT */
-  @font-face {
-      font-family: 'EngraversOldEnglish';
-      src: url('EngraversOldEnglishBT.ttf') format('truetype');
-      font-weight: normal;
-      font-style: normal;
-  }
-
 </style>
 </head>
 <body>
@@ -202,46 +167,13 @@
     <a class="boton" href="https://drive.google.com/file/d/1JXkFN1EMMklOHkxpGxB-h-XXn2B4t8LE/view?usp=sharing" target="_blank">
       Curriculum <img class="icon" src="https://img.icons8.com/?size=100&id=89871&format=png" alt="Icono curriculum">
     </a>
-    <h3>Puedes consultar este otro más "rolero":</h3>
-    <a class="boton" href="https://drive.google.com/file/d/1AjklwJq4SuZOQDTqoQOVqcXObLRqZwt-/view?usp=sharing" target="_blank">
-      Ficha de personaje - Erik Nivel 35 <img class="icon" src="https://img.icons8.com/?size=100&id=Uv4CYobGW3fl&format=png" alt="Icono brocha">
-    </a>
   </section>
 
   <!-- Proyectos -->
   <section id="proyectos">
     <h2>Proyectos</h2>
-    <h3>Website</h3>
     <a class="boton" href="https://erikskollson.notion.site/Erik-2584e3ab08e38031a458f5ffdce3c129?source=copy_link" target="_blank">
       Mi presentación <img class="icon" src="https://img.icons8.com/?size=100&id=uVERmCBZZACL&format=png" alt="Icono presentación">
-    </a>
-    <a class="boton" href="https://gaiasport.wordpress.com/" target="_blank">
-      Gaia Sport <img class="icon" src="https://img.icons8.com/?size=100&id=eHpa7GwwofeH&format=png" alt="Icono Wordpress">
-    </a>
-
-    <h3>Mentor Digital</h3>
-    <a class="boton" href="https://erikskollson.notion.site/Competencias-Digitales-A2-2bc4e3ab08e38111826ed87c4a35985c?source=copy_link" target="_blank">
-      Portfolio A2 <img class="icon" src="https://img.icons8.com/?size=100&id=uVERmCBZZACL&format=png" alt="Icono Notion">
-    </a>
-    <a class="boton" href="https://erikdiazfernandez.weebly.com/" target="_blank">
-      Portfolio A2 (Weebly) <img class="icon" src="https://img.icons8.com/?size=100&id=lAyQGYJI4GQn&format=png" alt="Icono Weebly">
-    </a>
-    <a class="boton" href="https://erikskollson.notion.site/Competencias-Digitales-B1-Eduki-Digitalak-2bc4e3ab08e381c29e38cf59b9bb6e42?source=copy_link" target="_blank">
-      Portfolio B1 <img class="icon" src="https://img.icons8.com/?size=100&id=uVERmCBZZACL&format=png" alt="Icono Notion">
-    </a>
-
-    <h3>Presentaciones</h3>
-    <a class="boton" href="https://drive.google.com/file/d/1tvxznz3uwo-Zic6eGyeT5VeyrlRaWeL1/view?usp=sharing" target="_blank">
-      Centro de Estudios Mikeldi - "Identidad y Orientación" <img class="icon" src="https://img.icons8.com/?size=100&id=Is00tdUKRPwa&format=png" alt="Icono presentación">
-    </a>
-
-    <h3>Proyectos propios</h3>
-    <a class="boton" href="https://drive.google.com/file/d/1I0jetyZXZEYTWH6MvcCBlYCL5oY6a5lK/view?usp=sharing" target="_blank">
-      Juego de mesa "Proeza de Héroe" <img class="icon" src="https://img.icons8.com/?size=100&id=P4eZS7zAfzRJ&format=png" alt="Icono espada">
-    </a>
-    <br>
-    <a class="boton" href="https://drive.google.com/file/d/1UfMcAGp-xmgrODnuwnHkwo7BMlzSHS4t/view?usp=sharing" target="_blank">
-      Muestra de mi libro "Una ventana a mi corazón abierto" <img class="icon" src="https://img.icons8.com/?size=100&id=cnNtGti9W5zg&format=png" alt="Icono libro">
     </a>
   </section>
 
@@ -254,30 +186,10 @@
     <a class="boton-contacto" href="mailto:erik.skollson@gmail.com" title="Correo electrónico">
       <img class="icon" src="https://img.icons8.com/?size=100&id=i3XElI5CmcBP&format=png" alt="Icono correo">
     </a>
-    <a class="boton-contacto" href="https://t.me/ErikSkollson" title="Telegram">
-      <img class="icon" src="https://img.icons8.com/?size=100&id=45163&format=png" alt="Icono Telegram">
-    </a>
-    <a class="boton-contacto" href="https://github.com/ErikSkollson" title="GitHub">
-      <img class="icon" src="https://img.icons8.com/?size=100&id=62856&format=png" alt="Icono GitHub">
-    </a>
-    <a class="boton-contacto" href="https://www.youtube.com/@erik.skollson" title="YouTube">
-      <img class="icon" src="https://img.icons8.com/?size=100&id=37326&format=png" alt="Icono YouTube">
-    </a>
-    <a class="boton-contacto" href="https://www.instagram.com/erik.skollson" title="Instagram">
-      <img class="icon" src="https://img.icons8.com/?size=100&id=85154&format=png" alt="Icono Instagram">
-    </a>
-    <p>
-<div style="border-radius: 12px; overflow: hidden;">
-  <iframe
-    src="https://erikskollson.notion.site/2ee4e3ab08e3808abe3ec6e5b6cc3e12?pvs=105"
-    width="100%"
-    height="600"
-    style="border: none;"
-    allowfullscreen>
-  </iframe>
-</div>
-    </p>
 
+    <div style="border-radius: 12px; overflow: hidden; margin-top: 12px;">
+      <iframe src="https://erikskollson.notion.site/ebd//2ee4e3ab08e3808abe3ec6e5b6cc3e12" width="100%" height="600" frameborder="0" allowfullscreen />
+    </div>
   </section>
 
   <footer>
