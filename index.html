@@ -4,7 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <link rel="icon" type="image/png" href="Erik Sköllson_nobg.png">
+
 <title>Erik Sköllson | Presentación</title>
+
+<!-- Fuente gótica clásica -->
+<link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+
 <style>
   body {
     margin: 0;
@@ -30,29 +35,32 @@
     position: relative;
   }
 
+  h1.logo {
+    font-family: 'UnifrakturCook', cursive;
+    color: #1f1f1f;
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+
+  h2.subtitulo {
+    color: #1f1f1f;
+    margin-bottom: 20px;
+  }
+
+  img.avatar {
+    display: none; /* ocultamos el antiguo logo/banner */
+  }
+
   section {
     margin: 20px 0;
     padding: 20px;
     border-radius: 20px;
-    background-color: #5c6773; /* color acero */
-    color: #ffffff; /* texto en blanco */
-    text-align: center;
-  }
-
-  section#inicio {
-    background-color: transparent;
-    text-align: center;
-  }
-
-  section#inicio h1 {
-    color: #ffffff;
-    font-size: 48px !important;
-  }
-
-  section#inicio h2, section#inicio p {
+    background-color: #e3ddd4;
     color: #1f1f1f;
+    text-align: center;
   }
 
+  h1 { font-size: 32px !important; margin-bottom: 10px; }
   h2 { font-size: 24px !important; margin-bottom: 10px; }
   h3 { font-size: 20px !important; margin-bottom: 5px; }
   p  { font-size: 16px !important; margin-bottom: 10px; }
@@ -65,12 +73,13 @@
     display: inline-block;
     padding: 10px 20px;
     margin: 5px;
-    background: #ffffff;
+    background: #fff;
     color: #1f1f1f;
     text-decoration: none;
     border: 3px solid #1f1f1f;
     border-radius: 5px;
     font-weight: bold;
+    text-transform: none;
     font-size: 16px !important;
   }
 
@@ -87,7 +96,7 @@
     width: 50px;
     height: 50px;
     margin: 5px;
-    background: #ffffff;
+    background: #fff;
     color: #1f1f1f;
     text-decoration: none;
     border: 3px solid #1f1f1f;
@@ -133,7 +142,6 @@
 
   @media (max-width: 600px) {
     .caja-cv { width: 90%; padding: 20px; }
-    img.avatar { width: 120px; }
     img.mascota { width: 56px; }
   }
 </style>
@@ -144,9 +152,9 @@
 
   <!-- Inicio -->
   <section id="inicio">
-    <h1>Erik Sköllson</h1>
-    <h2>MENTOR DIGITAL</h2>
-    <p>Gracias por dedicarme unos minutos de tu tiempo.</p>
+    <h1 class="logo">Erik Sköllson</h1>
+    <h2 class="subtitulo">MENTOR DIGITAL</h2>
+    <p style="color:#1f1f1f;">Gracias por dedicarme unos minutos de tu tiempo.</p>
   </section>
 
   <!-- Sobre mí -->
@@ -165,15 +173,48 @@
     <h2>Currículum</h2>
     <h3>Mentor Digital</h3>
     <a class="boton" href="https://drive.google.com/file/d/1JXkFN1EMMklOHkxpGxB-h-XXn2B4t8LE/view?usp=sharing" target="_blank">
-      Curriculum <img class="icon" src="https://img.icons8.com/?size=100&id=89871&format=png" alt="Icono curriculum">
+      Curriculum <img class="icon" src="https://img.icons8.com/?size=100&id=89871&format=png&color=000000" alt="Icono curriculum" title="Curriculum">
+    </a>
+    <h3>Puedes consultar este otro más "rolero":</h3>
+    <a class="boton" href="https://drive.google.com/file/d/1AjklwJq4SuZOQDTqoQOVqcXObLRqZwt-/view?usp=sharing" target="_blank">
+      Ficha de personaje - Erik Nivel 35 <img class="icon" src="https://img.icons8.com/?size=100&id=Uv4CYobGW3fl&format=png&color=000000" alt="Icono brocha" title="Ficha de personaje">
     </a>
   </section>
 
   <!-- Proyectos -->
   <section id="proyectos">
     <h2>Proyectos</h2>
+    <h3>Website</h3>
     <a class="boton" href="https://erikskollson.notion.site/Erik-2584e3ab08e38031a458f5ffdce3c129?source=copy_link" target="_blank">
-      Mi presentación <img class="icon" src="https://img.icons8.com/?size=100&id=uVERmCBZZACL&format=png" alt="Icono presentación">
+      Mi presentación <img class="icon" src="https://img.icons8.com/?size=100&id=uVERmCBZZACL&format=png&color=000000" alt="Icono presentación" title="Mi presentación">
+    </a>
+    <a class="boton" href="https://gaiasport.wordpress.com/" target="_blank">
+      Gaia Sport <img class="icon" src="https://img.icons8.com/?size=100&id=eHpa7GwwofeH&format=png&color=000000" alt="Icono Wordpress" title="Gaia Sport">
+    </a>
+
+    <h3>Mentor Digital</h3>
+    <a class="boton" href="https://erikskollson.notion.site/Competencias-Digitales-A2-2bc4e3ab08e38111826ed87c4a35985c?source=copy_link" target="_blank">
+      Portfolio A2 <img class="icon" src="https://img.icons8.com/?size=100&id=uVERmCBZZACL&format=png&color=000000" alt="Icono Notion" title="Portfolio A2">
+    </a>
+    <a class="boton" href="https://erikdiazfernandez.weebly.com/" target="_blank">
+      Portfolio A2 (Weebly) <img class="icon" src="https://img.icons8.com/?size=100&id=lAyQGYJI4GQn&format=png&color=000000" alt="Icono Weebly" title="Portfolio A2 (Weebly)">
+    </a>
+    <a class="boton" href="https://erikskollson.notion.site/Competencias-Digitales-B1-Eduki-Digitalak-2bc4e3ab08e381c29e38cf59b9bb6e42?source=copy_link" target="_blank">
+      Portfolio B1 <img class="icon" src="https://img.icons8.com/?size=100&id=uVERmCBZZACL&format=png&color=000000" alt="Icono Notion" title="Portfolio B1">
+    </a>
+
+    <h3>Presentaciones</h3>
+    <a class="boton" href="https://drive.google.com/file/d/1tvxznz3uwo-Zic6eGyeT5VeyrlRaWeL1/view?usp=sharing" target="_blank">
+      Centro de Estudios Mikeldi - "Identidad y Orientación" <img class="icon" src="https://img.icons8.com/?size=100&id=Is00tdUKRPwa&format=png&color=000000" alt="Icono presentación" title="Presentación CE Mikeldi">
+    </a>
+
+    <h3>Proyectos propios</h3>
+    <a class="boton" href="https://drive.google.com/file/d/1I0jetyZXZEYTWH6MvcCBlYCL5oY6a5lK/view?usp=sharing" target="_blank">
+      Juego de mesa "Proeza de Héroe" <img class="icon" src="https://img.icons8.com/?size=100&id=P4eZS7zAfzRJ&format=png&color=000000" alt="Icono espada" title="Juego de mesa Proeza de Héroe">
+    </a>
+    <br>
+    <a class="boton" href="https://drive.google.com/file/d/1UfMcAGp-xmgrODnuwnHkwo7BMlzSHS4t/view?usp=sharing" target="_blank">
+      Muestra de mi libro "Una ventana a mi corazón abierto" <img class="icon" src="https://img.icons8.com/?size=100&id=cnNtGti9W5zg&format=png&color=000000" alt="Icono libro" title="Mi libro">
     </a>
   </section>
 
@@ -184,9 +225,20 @@
       Explora mis cursos y recursos gratuitos, y si encajan contigo, no dudes en escribirme.
     </p>
     <a class="boton-contacto" href="mailto:erik.skollson@gmail.com" title="Correo electrónico">
-      <img class="icon" src="https://img.icons8.com/?size=100&id=i3XElI5CmcBP&format=png" alt="Icono correo">
+      <img class="icon" src="https://img.icons8.com/?size=100&id=i3XElI5CmcBP&format=png&color=000000" alt="Icono correo">
     </a>
-
+    <a class="boton-contacto" href="https://t.me/ErikSkollson" title="Telegram">
+      <img class="icon" src="https://img.icons8.com/?size=100&id=45163&format=png&color=000000" alt="Icono Telegram">
+    </a>
+    <a class="boton-contacto" href="https://github.com/ErikSkollson" title="GitHub">
+      <img class="icon" src="https://img.icons8.com/?size=100&id=62856&format=png&color=000000" alt="Icono GitHub">
+    </a>
+    <a class="boton-contacto" href="https://www.youtube.com/@erik.skollson" title="YouTube">
+      <img class="icon" src="https://img.icons8.com/?size=100&id=37326&format=png&color=000000" alt="Icono YouTube">
+    </a>
+    <a class="boton-contacto" href="https://www.instagram.com/erik.skollson" title="Instagram">
+      <img class="icon" src="https://img.icons8.com/?size=100&id=85154&format=png&color=000000" alt="Icono Instagram">
+    </a>
     <div style="border-radius: 12px; overflow: hidden; margin-top: 12px;">
       <iframe src="https://erikskollson.notion.site/ebd//2ee4e3ab08e3808abe3ec6e5b6cc3e12" width="100%" height="600" frameborder="0" allowfullscreen />
     </div>
@@ -194,7 +246,7 @@
 
   <footer>
     <p>Gracias por visitar mi presentación</p>
-    <img class="mascota" src="./Erik.png" alt="Avatar Erik" title="ありがとうございます">
+    <img class="mascota" src="./erik.png" alt="Avatar Erik" title="ありがとうございます">
   </footer>
 
 </div>
