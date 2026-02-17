@@ -4,23 +4,23 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <link rel="icon" type="image/png" href="Erik Sköllson_nobg.png">
-
 <title>Erik Sköllson | Presentación</title>
 <style>
   body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-color: #1a1a1a;
+    background-color: #1F1F1F;
     display: flex;
     justify-content: center;
     padding: 40px 0;
     font-size: 16px !important;
+    color: #1F1F1F;
   }
 
   .caja-cv {
-    background-color: #ffffff;
-    color: #1a1a1a;
+    background-color: #E3DDD4;
+    color: #1F1F1F;
     max-width: 700px;
     width: 75%;
     padding: 40px;
@@ -43,67 +43,66 @@
     border-radius: 20px;
   }
 
-  /* Inicial integrado con fondo */
   section#inicio {
     background-color: transparent;
-    color: black;
+    color: #1F1F1F;
     text-align: center;
   }
 
-  /* Sobre mí box */
   section#sobre-mi {
-    background-color: #1f1f1f;
-    color: white;
+    background-color: #5C6773;
+    color: #E3DDD4;
     border-radius: 20px;
     text-align: center;
   }
 
   section#curriculum {
-    background-color: #4B6578;
-    color: white;
+    background-color: #284D82;
+    color: #E3DDD4;
     border-radius: 20px;
   }
 
   section#proyectos {
-    background-color: #F2C94C;
+    background-color: #E3DDD4;
+    color: #1F1F1F;
     border-radius: 20px;
     text-align: center;
   }
 
   section#contacto {
-    background-color: #4A7B5E;
-    color: white;
+    background-color: #284D82;
+    color: #E3DDD4;
     border-radius: 20px;
     text-align: center;
   }
 
-  h1 { font-size: 32px !important; margin-bottom: 10px; }
-  h2 { font-size: 24px !important; margin-bottom: 10px; }
-  h3 { font-size: 20px !important; margin-bottom: 5px; }
-  p  { font-size: 16px !important; margin-bottom: 10px; }
+  h1 { font-size: 32px !important; margin-bottom: 10px; color: #284D82; }
+  h2 { font-size: 24px !important; margin-bottom: 10px; color: #284D82; }
+  h3 { font-size: 20px !important; margin-bottom: 5px; color: #1F1F1F; }
+  p  { font-size: 16px !important; margin-bottom: 10px; color: #1F1F1F; }
 
   .boton, .boton-contacto {
     cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
   }
 
   .boton {
     display: inline-block;
     padding: 10px 20px;
     margin: 5px;
-    background: #fff;
-    color: black;
+    background: #284D82;
+    color: #E3DDD4;
     text-decoration: none;
-    border: 3px solid black;
+    border: 3px solid #284D82;
     border-radius: 5px;
     font-weight: bold;
-    text-transform: none;
     font-size: 16px !important;
   }
 
-  .boton img.icon {
-    width: 24px;
-    vertical-align: middle;
-    margin-left: 5px;
+  .boton:hover {
+    background: #5C6773;
+    border-color: #5C6773;
+    transform: scale(1.1);
   }
 
   .boton-contacto {
@@ -113,33 +112,29 @@
     width: 50px;
     height: 50px;
     margin: 5px;
-    background: #fff;
-    color: black;
+    background: #284D82;
+    color: #E3DDD4;
     text-decoration: none;
-    border: 3px solid black;
+    border: 3px solid #284D82;
     border-radius: 50%;
-    transition: transform 0.2s ease, background-color 0.2s ease;
   }
 
-  .boton-contacto img.icon {
-    width: 24px;
-    height: 24px;
-    margin: 0;
-  }
-
-  .boton-contacto:hover, .boton:hover {
+  .boton-contacto:hover {
+    background: #5C6773;
+    border-color: #5C6773;
     transform: scale(1.1);
   }
 
   footer {
     margin-top: 24px;
     text-align: center;
+    color: #E3DDD4;
   }
 
   footer p {
     margin-bottom: 5px;
     font-size: 14px;
-    color: #555;
+    color: #E3DDD4;
   }
 
   img.mascota {
@@ -168,15 +163,13 @@
 
 <div class="caja-cv">
 
-  <!-- Inicio integrado con fondo -->
   <section id="inicio">
     <img class="avatar" src="./Erik Sköllson bannerweb.png" alt="Avatar Vault·Erik" title="Avatar de Vault·Erik">
-    <h1>Erik Sköllson</h1>
+    <h1>Erik</h1>
     <h2>MENTOR DIGITAL</h2>
     <p>Gracias por dedicarme unos minutos de tu tiempo.</p>
   </section>
 
-  <!-- Sobre mí -->
   <section id="sobre-mi">
     <h2>Sobre mí</h2>
     <p>
@@ -187,7 +180,6 @@
     </p>
   </section>
 
-  <!-- Currículum -->
   <section id="curriculum">
     <h2>Currículum</h2>
     <h3>Mentor Digital</h3>
@@ -200,11 +192,10 @@
     </a>
   </section>
 
-  <!-- Proyectos -->
   <section id="proyectos">
     <h2>Proyectos</h2>
     <h3>Website</h3>
-    <a class="boton" href="https://erikskollson.notion.site/Erik-D-az-Portfolio-2a44e3ab08e380c7a6dff59275d49f1b?source=copy_link" target="_blank">
+    <a class="boton" href="https://erikskollson.notion.site/Erik-2584e3ab08e38031a458f5ffdce3c129?source=copy_link" target="_blank">
       Mi presentación <img class="icon" src="https://img.icons8.com/?size=100&id=uVERmCBZZACL&format=png&color=000000" alt="Icono presentación" title="Mi presentación">
     </a>
     <a class="boton" href="https://gaiasport.wordpress.com/" target="_blank">
@@ -237,7 +228,6 @@
     </a>
   </section>
 
-  <!-- Contacto -->
   <section id="contacto">
     <h2>Contacto</h2>
     <p>
@@ -258,25 +248,20 @@
     <a class="boton-contacto" href="https://www.instagram.com/erik.skollson" title="Instagram">
       <img class="icon" src="https://img.icons8.com/?size=100&id=85154&format=png&color=000000" alt="Icono Instagram">
     </a>
-    <p>
-<div style="border-radius: 12px; overflow: hidden;">
-  <iframe
-    src="https://erikskollson.notion.site/2ee4e3ab08e3808abe3ec6e5b6cc3e12?pvs=105"
-    width="100%"
-    height="600"
-    style="border: none;"
-    allowfullscreen>
-  </iframe>
-</div>
-    </p>
-
+    <div style="border-radius: 12px; overflow: hidden; margin-top: 20px;">
+      <iframe
+        src="https://erikskollson.notion.site/Erik-2584e3ab08e38031a458f5ffdce3c129?source=copy_link"
+        width="100%"
+        height="600"
+        style="border: none;"
+        allowfullscreen>
+      </iframe>
+    </div>
   </section>
-
-
 
   <footer>
     <p>Gracias por visitar mi presentación</p>
-    <img class="mascota" src="./erik.png" alt="Avatar Erik" title="ありがとうございます">
+    <img class="mascota" src="./Erik.png" alt="Avatar Erik" title="ありがとうございます">
   </footer>
 
 </div>
