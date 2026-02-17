@@ -55,9 +55,13 @@
     margin: 20px 0;
     padding: 20px;
     border-radius: 20px;
-    background-color: #e3ddd4;
-    color: #1f1f1f;
     text-align: center;
+  }
+
+  /* Secciones con fondo acero y texto blanco */
+  #curriculum, #proyectos, #contacto {
+    background-color: #7f8c8d; /* color acero */
+    color: #ffffff;
   }
 
   h1 { font-size: 32px !important; margin-bottom: 10px; }
@@ -146,12 +150,18 @@
   }
 
   /* Logo ajustado dentro de la caja */
-#inicio img {
-  max-width: 200px; /* ajusta esto según lo grande que quieras que sea */
-  height: auto;
-  display: block;
-  margin: 0 auto 20px auto; /* centrado y con margen inferior */
-}
+  #inicio img {
+    max-width: 200px; 
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto; 
+  }
+
+  /* Mantener h2 y párrafo inicial con color negro para contraste */
+  #inicio h2.subtitulo,
+  #inicio p {
+    color: #1f1f1f;
+  }
 </style>
 </head>
 <body>
@@ -161,8 +171,9 @@
   <!-- Inicio -->
   <section id="inicio">
     <img src="ErikSköllsonBanner.png" alt="Logo Erik Sköllson">
+    <h1 class="logo">Erik Sköllson</h1>
     <h2 class="subtitulo">MENTOR DIGITAL</h2>
-    <p style="color:#1f1f1f;">Gracias por dedicarme unos minutos de tu tiempo.</p>
+    <p>Gracias por dedicarme unos minutos de tu tiempo.</p>
   </section>
 
   <!-- Sobre mí -->
@@ -248,7 +259,7 @@
       <img class="icon" src="https://img.icons8.com/?size=100&id=85154&format=png&color=000000" alt="Icono Instagram">
     </a>
     <div style="border-radius: 12px; overflow: hidden; margin-top: 12px;">
-      <iframe src="https://erikskollson.notion.site/ebd//2ee4e3ab08e3808abe3ec6e5b6cc3e12" width="100%" height="600" frameborder="0" allowfullscreen />
+      <iframe src="https://erikskollson.notion.site/ebd//2ee4e3ab08e3808abe3ec6e5b6cc3e12" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
     </div>
   </section>
 
